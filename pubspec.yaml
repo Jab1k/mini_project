@@ -1,0 +1,60 @@
+name: setup_provider
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+  provider: ^6.0.5
+  dio: ^5.1.1
+
+  connectivity_plus: ^3.0.3
+  shared_preferences: ^2.1.0
+  easy_localization: ^3.0.1
+  web_socket_channel: ^2.3.0
+  get_it: ^7.2.0
+  dartz: ^0.10.1
+
+
+  #ui
+  google_fonts: ^4.0.3
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.7.0
+  flutter_native_splash: ^2.2.19
+  cached_network_image: ^3.2.3
+  proste_indexed_stack: ^0.2.4
+
+
+  #firebase
+  firebase_core: ^2.9.0
+  firebase_messaging: ^14.4.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.12.0
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "image_path"
+  in_sdk_android: 21
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/tr/
+
